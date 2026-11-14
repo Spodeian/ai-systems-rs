@@ -2,7 +2,7 @@
 
 [![Rust Toolchain](https://img.shields.io/badge/Rust-1.80%2B-orange.svg)](Cargo.toml)
 [![Candle Core](https://img.shields.io/badge/Candle-0.8.2-blue.svg)](crates/ai-candle)
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
+[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-blue.svg)](LICENSE.md)
 
 High-performance, zero-Python, memory-safe Rust machine learning architectures and hardware compute kernels, covering 263 topics across 18 categories.
 
@@ -39,3 +39,12 @@ cargo test -p ai-kernel
 # Build release binaries
 cargo build --release --workspace
 ```
+
+---
+
+## License
+
+Licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). You may use,
+change and share this software for any noncommercial purpose. For a
+commercial license, contact [Spodeian](https://github.com/Spodeian). Earlier
+releases keep the license they were published under.
